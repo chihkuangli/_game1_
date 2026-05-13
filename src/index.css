@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --font-mono: "JetBrains Mono", "Cousine", ui-monospace, SFMono-Regular, monospace;
+:root {
+  --bg: #0A0B0E;
+  --surface: #151619;
+  --line: #2A2D35;
+  --neon: #00FF00;
+  --neon-dim: rgba(0, 255, 0, 0.2);
+  --accent: #FF4444;
+  --text-main: #E0E0E0;
+  --text-dim: #666A73;
 }
 
 :root {
